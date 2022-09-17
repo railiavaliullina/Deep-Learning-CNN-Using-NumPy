@@ -5,7 +5,7 @@ Convolutional Neural Network:
 2) Обучен на датасетах mnist, cifar-10.
 
 
-# Реализовано:
+# Реализовано
 
 • forward и backward pass для convolutional и pooling (max, average) слоев;
 
@@ -34,7 +34,7 @@ Convolutional Neural Network:
 • все вычисления для батча, агрегация средним.
 
 
-# Файлы для запуска: 
+# Файлы для запуска
 1) обучение без аугментации - homeworks/Homework_CNN_train_net.py
 2) обучение с аугментацией - homeworks/Homework_CNN_train_net_with_aug.py
 
