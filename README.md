@@ -35,7 +35,6 @@ Convolutional Neural Network:
 
 
 Файлы для запуска: 
-`
 1) обучение без аугментации - homeworks/Homework_CNN_train_net.py
 2) обучение с аугментацией - homeworks/Homework_CNN_train_net_with_aug.py
 
@@ -49,4 +48,3 @@ Convolutional Neural Network:
 Время валидации:
 1) без аугментации: ~ 1.134 min (на обучающей выборке), ~ 0.188 min (на тестовой выборке)
 2) с аугментацией: ~ 1.777 min (на обучающей выборке), ~ 0.18 min min (на тестовой выборке)
-`
