@@ -5,7 +5,7 @@ Convolutional Neural Network:
 2) Обучен на датасетах mnist, cifar-10.
 
 
-# Реализовано следующее:
+# Реализовано:
 
 • forward и backward pass для convolutional и pooling (max, average) слоев;
 
