@@ -1,42 +1,47 @@
 # Deep-Learning-CNN-Using-NumPy
 
-Convolutional Neural Network:
-1) Реализован на Python + NumPy, без использования фреймворков для глубоких нейронных сетей,
-2) Обучен на датасетах mnist, cifar-10.
+## About The Project
+
+1) CNN was implemented in Python + NumPy, without the use of frameworks for deep neural networks,
+2) was trained on mnist, cifar-10 datasets.
 
 
-# Реализовано
+## Implemented modules
 
-• forward и backward pass для convolutional и pooling (max, average) слоев;
+• forward and backward pass for convolutional and pooling (max, average) layers;
 
-• функции активации (ReLU, sigmoid, tanh, linear, ...),
+• activation functions (ReLU, sigmoid, tanh, linear, ...),
 
-• функция Softmax,
+• Softmax function,
 
-• класс Optimizer,
+• Optimizer class,
 
-• целевая функция CrossEntropy,
+• objective function CrossEntropy,
 
-• класс Dataset,
+• Dataset class,
 
-• класс DataLoader,
+• class DataLoader,
 
-• функция batch_generator с учетом различных методов сэмплирования,
+• batch_generator function, taking into account various sampling methods,
 
-• классы аугментации данных (pad, crop, scale, translate, rotate, noise, salt, pepper, hue, brightness, saturation, contrast, blur),
+• data augmentation classes (pad, crop, scale, translate, rotate, noise, salt, pepper, hue, brightness, saturation, contrast, blur),
 
-• unit тесты,
+• unit tests,
 
-• класс «контейнер» модели,
+• class "container" of the model,
 
-• оверфиттинг на одном батче,
+• overfitting on one batch,
 
-• все вычисления для батча, агрегация средним.
+• all calculations for a batch, aggregation by average.
 
 
-# Файлы для запуска
-1) обучение без аугментации - homeworks/Homework_CNN_train_net.py
-2) обучение с аугментацией - homeworks/Homework_CNN_train_net_with_aug.py
+## Getting Started
+
+Files to run:
+
+    for training without augmentation -- homeworks/Homework_CNN_train_net.py
+    for training with augmentation -- homeworks/Homework_CNN_train_net_with_aug.py
+
 
 Графики точности на обучающей и тестовой выборках, лосса - в папке /plots.
 Параметры обучения в конфиге configs/config.py
