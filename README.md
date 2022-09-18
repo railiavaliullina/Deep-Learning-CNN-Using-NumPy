@@ -43,13 +43,20 @@ Files to run:
     for training with augmentation -- homeworks/Homework_CNN_train_net_with_aug.py
 
 
-Графики точности на обучающей и тестовой выборках, лосса - в папке /plots.
-Параметры обучения в конфиге configs/config.py
+## Additional Information
 
-Время обучения одной эпохи:
-1) без аугментации ~ 9.856 min
-2) с аугментацией ~ 10.417 min
+Visualization of accuracy on the training and test samples, loss are in:
 
-Время валидации:
-1) без аугментации: ~ 1.134 min (на обучающей выборке), ~ 0.188 min (на тестовой выборке)
-2) с аугментацией: ~ 1.777 min (на обучающей выборке), ~ 0.18 min min (на тестовой выборке)
+        /plots/
+        
+Training parameters are in:
+
+    configs/config.py
+
+Training time for one epoch:
+1) without augmentation ~ 9.856 min
+2) with augmentation ~ 10.417 min
+
+Validation time:
+1) without augmentation: ~ 1.134 min (on the training set), ~ 0.188 min (on the test set)
+2) with augmentation: ~ 1.777 min (on the training set), ~ 0.18 min min (on the test set)
